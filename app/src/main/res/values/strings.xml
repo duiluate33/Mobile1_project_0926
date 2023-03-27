@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mobile1_Project_0926</string>
+    <string name="user_name">사용자 이름</string>
+    <string name="text_email">Email 주소</string>
+    <string name="btn_info">사용자 정보입력</string>
+    <string name="dialog_title">사용자 정보입력</string>
+    <string name="toast_msg_cancel">"입력이 취소되었습니다.</string>
+</resources>

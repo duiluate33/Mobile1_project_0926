@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/root_padding"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    <!--정렬이 안되므로 수평정렬해줌-->
+    <!--유지보수 편리하기 위해 숫자값을 values.xml에 저장해서 사용 -->
+    <!--<resources>  dimens.xml
+    <dimen name="root_padding">25dp</dimen>
+    <dimen name="dialog_padding">15dp</dimen>
+    <dimen name="text_margin_bottom">20dp</dimen>
+    <dimen name="imgv_margin_right">15dp</dimen>
+    <dimen name="text_size_large">25sp</dimen>
+    <dimen name="text_size_medium">15sp</dimen>
+    </resources>-->
+    <TextView
+        android:id="@+id/text_user"
+        android:textSize="@dimen/text_size_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_bottom"
+        android:text="@string/user_name"/>
+    <TextView
+        android:id="@+id/text_email"
+        android:textSize="@dimen/text_size_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_bottom"
+        android:text="@string/text_email"/>
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_info"/>
+
+</LinearLayout>
